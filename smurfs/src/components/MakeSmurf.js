@@ -14,7 +14,7 @@ const MakeSmurf = props => {
 
   return (
     <div className="form">
-      <h1>Add a Smurf to the Village</h1>
+      <h3>Add a Smurf to the Village</h3>
       <input
         type="text"
         name="name"

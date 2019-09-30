@@ -32,7 +32,6 @@
   flex-direction: column;
   justify-content: center;
   width: 300px;
-  margin-left: 430px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 30px;
@@ -57,4 +56,18 @@ input:focus{
 
 body{
   background-color: #d6d8eb !important;
+}
+
+.smurfCombine {
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 140px;
+  margin-left: 50px !important;
+  cursor: pointer;
+  outline: none;
 }

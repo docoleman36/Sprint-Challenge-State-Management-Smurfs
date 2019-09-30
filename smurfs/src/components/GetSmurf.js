@@ -15,7 +15,7 @@ const GetSmurf = ({ getSmurf, smurf, isFetching, error }) => {
     return (
         <div>
             <h1>Smurf Village</h1>
-            <div>
+            <div className="form">
                 {smurf.map(smurfs => (
                     <div key={smurfs.id}>
                         <h1>{smurfs.name}</h1>
